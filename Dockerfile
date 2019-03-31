@@ -2,7 +2,7 @@ FROM vertx/vertx3
 
 #
 ENV VERTICLE_NAME eu.mapban.statistics.ServerBase
-ENV VERTICLE_FILE api.jar
+ENV VERTICLE_FILE statistics-aggregator.jar
 
 # Set the location of the verticles
 ENV VERTICLE_HOME /usr/verticles
